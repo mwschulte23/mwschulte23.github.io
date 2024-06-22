@@ -1,0 +1,51 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Laconic Labs
+site_url: https://laconic-labs.dev
+site_description: Unlock the power of AI with Laconic Labs
+site_author: Mike Schulte
+repo_url: https://github.com/squidfunk/mkdocs-material
+
+theme: 
+  name: material
+  palette: 
+    - scheme: default
+      primary: custom
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: custom
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+
+plugins:
+  - blog:
+      archive: false
+      blog_toc: true
+
+nav:
+  - Introduction: index.md
+  - Blog:
+    - Overview: 'blog/blog.md'
+    - ML:
+      - GenAI Hype: 'blog/ml/genai-hype.md'
+      - Important Concepts in Actually Using LLMs to Build: 'blog/ml/concepts.md'
+  - Resources:
+    - Overview: 'resources/resources.md'
+  - Walk-Throughs:
+    - Overview: 'walk-throughs/walk-throughs.md'
+  - AI Consulting:
+    - What I Do: 'consulting/consulting.md'
+
+
+extra_css:
+  - styles.css
