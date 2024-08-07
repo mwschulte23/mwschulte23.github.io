@@ -698,32 +698,46 @@
     </div>
   </header>
   <div class="md-post__content md-typeset">
-    <h2 id="why-ai"><a class="toclink" href="2024/06/22/Why%20Consider%20Using%20AI%3F/">Why ai</a></h2>
-<h4 id="why-consider-using-ai"><a class="toclink" href="2024/06/22/Why%20Consider%20Using%20AI%3F/#why-consider-using-ai">Why Consider Using AI?</a></h4>
-<p>It can improve decision making, automate workflows and explain complexity.</p>
-<p>Take a service business like HVAC repair. A technician is at a job site. Needs a part that meets certain specs, price range, brand and is in stock.</p>
-<ul>
-<li>Without AI - technician has dig through product documentation, make a few phone calls &amp;/or drive to a suppplier.</li>
-<li>With AI - technician asks types product needs, gets list of results with relevant details.</li>
-</ul>
-<p>This AI system would improve efficiency &amp; enable technician to make a more informed product choice.</p>
-<p>1) Improved decision making: A technician is at a job site &amp; needs a part that meets certain specs. 
-    * Without AI - goes off memory, makes a phone call or searches documentation
-    * With AI - asks the system for parts that meet the spec, gets a list of options</p>
-<p>Looking at the opportunity through a common use-case. Customers.</p>
-<ul>
-<li>Finding them: </li>
-</ul>
-<p>It can automate workflows &amp; improve decision making...ideally both.</p>
-<p>AI technology can transform businesses by automating routine tasks, enhancing data analysis, and improving decision-making processes. Here are a few reasons why businesses should consider integrating AI:</p>
+    <h2 id="why-ai"><a class="toclink" href="2024/06/22/How%20to%20drive%20impact%20with%20AI%3F/">Why ai</a></h2>
+<p>Most AI projects fail. In my experience, they fail for three reasons:</p>
 <ol>
-<li><strong>Efficiency and Automation</strong>: AI can automate complex and repetitive tasks, allowing employees to focus on more strategic activities.</li>
-<li><strong>Data Insights</strong>: With AI, businesses can process and analyze large volumes of data to uncover insights that were previously inaccessible.</li>
-<li><strong>Personalization</strong>: AI enables businesses to offer personalized experiences to customers, increasing engagement and satisfaction.</li>
-<li><strong>Scalability</strong>: AI systems can handle increasing amounts of work as a business grows, without the need for proportional increases in human resources.</li>
-<li><strong>Competitive Advantage</strong>: Leveraging AI can provide businesses with a competitive edge through innovative solutions and improved customer service.</li>
+<li>Shaky foundation to build on</li>
+<li>Poorly defined model "delivery" &amp; objectives</li>
+<li>Lack of TLC post deployment</li>
 </ol>
-<p>Embracing AI can lead to significant improvements in productivity, customer experience, and ultimately, profitability.</p>
+<p>Avoiding these three mistakes will play a <strong>huge</strong> role in your success (+ having a strong data science team or partner).</p>
+<h4 id="shaky-foundation"><a class="toclink" href="2024/06/22/How%20to%20drive%20impact%20with%20AI%3F/#shaky-foundation">Shaky Foundation</a></h4>
+<p>Let's mix metaphors a bit. AI/ML models have an endless appetite for data &amp; will "eat" what they are given. Model performance heavily relies on quality of data they consume.</p>
+<p>Checklist:
+1. We need to source ingredients (data collection)
+2. We need a kitchen (database)
+2. We need a cook (data prep, analysis, and manipulation)
+3. We need a server (deliver data to model)</p>
+<p>Take predicting the proper amount to bid on a Google search ad. Do we collect past bids, relevant details, and clicks/conversions? Where is this data stored? Has anyone done exploratory data analysis on the data (bonus if automated data quality checks)?</p>
+<h4 id="poorly-defined"><a class="toclink" href="2024/06/22/How%20to%20drive%20impact%20with%20AI%3F/#poorly-defined">Poorly Defined</a></h4>
+<h5 id="delivery"><a class="toclink" href="2024/06/22/How%20to%20drive%20impact%20with%20AI%3F/#delivery">Delivery</a></h5>
+<p>We have two straight-forward options that meaningfully change the approach:
+1. Make predictions on a schedule, store in a database (e.g predict nightly)
+2. Make predictions on demand, log predictions for future evaluation</p>
+<p>Both approaches work well. The choice is dependent on data availability and objectives.</p>
+<h5 id="objectives"><a class="toclink" href="2024/06/22/How%20to%20drive%20impact%20with%20AI%3F/#objectives">Objectives</a></h5>
+<p>A seemingly straight-forward step can cause outsized "pain" when not done well.</p>
+<p>Hint: An objective of "make thing better" is bad, "increase measureable aspect of thing" is good.</p>
+<p>Expanding on our Google search ads example. We want to predict how much to bid on an ad. What do we want to happen? Bidding zero always minimizes cost, bidding $1M maximizes clicks...</p>
+<p>There are many metrics to optimize. Thoughtfully aligning our objectives with larger business goals is critical.</p>
+<p>We could have plenty of objectives. From increase clicks, conversions or customers; maximize return on ad spend or customer lifetime value; lower customer acquisition cost.</p>
+<p>Each of these objectives has trade-offs. Increase conversions could blow up spend, maximize return on ad spend could drop customer growth meaningfully.</p>
+<p>Say cost efficiency is business goal, optimizing revenue from conversion to acquisition cost is a good objective.</p>
+<h4 id="tlc-post-deployment"><a class="toclink" href="2024/06/22/How%20to%20drive%20impact%20with%20AI%3F/#tlc-post-deployment">TLC Post Deployment</a></h4>
+<p>Being able to deploy an AI model is exciting. It is easy to "set &amp; forget" but AI models require continuous monitoring and optimization.</p>
+<p>Staying up-to-date on </p>
+<ul>
+<li>Does the input data to the model shift over time?</li>
+<li>Are my evaluation metrics changing?</li>
+<li>Did a model retraining "break" performance?</li>
+<li>Are we collecting the right data for future optimizations?</li>
+</ul>
+<p>If these questions are managed, it is inevitable that performance will eventually degrade.</p>
     
   </div>
 </article>

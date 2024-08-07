@@ -10,32 +10,37 @@ Help businesses leverage data to drive improvement. This could be
 
 
 ### Consider working with us if you
+
 * Want to use AI but aren't sure where to start
 * Have a clear business objective and think AI can help
 * Are looking to start small before hiring a dedicated team
 
 
 ### Our Services
-We offer two primary services
+We offer a variety of services from consultations to building proejcts end-to-end.
 
-#### Tier One: Advise
+#### Consult
+Our consulting services can help
 
-* Upskill your team on building AI systems
-* Find the right AI tool(s) for your needs
-* Help vet potential job candidates
+* Upskill your team on building with AI
+* Assist in building your data science team
+* Help find AI tools
+* AI/ML strategy for your business
 
-You will benefit by avoiding common pitfalls and selecting the right approach to your problem, saving you time and money.
+You will benefit by a clearer path to utilizing AI, a more knowledgeable team, and/or the right tools for your business.
 
-#### Tier Two: Build
-Everything in tier one, plus:
 
-* **Scope** Partner with you in defining the scope of the project
-* **Develop & Deploy** We will build and deploy the AI system 
-* **Evaluation** Build an evaluation framework to measure the performance of the AI system
-* **Documentation** Write detailed documentation of the AI system
+#### Build
+our building services can
 
-*Note that AI systems carry infrastructure costs & require ongoing monitoring and evaluation to guarantee their performance.*
+* Partner in defining the scope of the project
+* Develop & deploy the AI model
+* Evaluation framework to track model performance
+* Document above to keep you informed
 
+*Note AI/ML models carry infrastructure costs & need ongoing monitoring.*
+
+You will benefit from well built AI model and pipeline that drives business impact.
 
 #### Our Approach
 We prefer to keep things simple with
@@ -45,7 +50,7 @@ We prefer to keep things simple with
 3. Do: We get to work, in partnership with your team.
 4. Discuss: At project close, recap the work provided and discuss steps needed to continue benefitting from our work.
 
-The discover call is always free. Reach out to me, Mike, anytime at mwschulte23@gmail.com to setup a discovery call.
+The discovery call is always free. Reach out to me, Mike, anytime at mwschulte23@gmail.com to chat.
 
 
 ### About Laconic Labs
@@ -55,6 +60,6 @@ Laconic Labs stands behind
 
 * the belief that aligning our work to customer goals is a winning approach
 * the power of AI in unlocking new ways for businesses to be successful
-* packaged up subscription software isn't as capable as solving your needs as we are
+
 
 Read more about my background [here](blog/posts/past-work.md).
