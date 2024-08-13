@@ -1,8 +1,7 @@
 ---
 date: 2024-06-22
 slug: How to drive impact with AI?
-categories:
-  - What is AI
+title: How to drive impact with AI?
 authors:
   - mike
 ---

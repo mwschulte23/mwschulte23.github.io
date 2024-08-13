@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://laconic-labs.dev/</loc>
-         <lastmod>2024-08-07</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://laconic-labs.dev/blog/</loc>
-         <lastmod>2024-08-07</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://laconic-labs.dev/blog/2024/06/22/What%20I%27ve%20Done%20w/%20ML%20%26%20AI/</loc>
-         <lastmod>2024-08-07</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://laconic-labs.dev/blog/2024/06/22/How%20to%20drive%20impact%20with%20AI%3F/</loc>
-         <lastmod>2024-08-07</lastmod>
+         <lastmod>2024-08-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://laconic-labs.dev/blog/2024/08/13/Working%20with%20LLMs/</loc>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://laconic-labs.dev/services/services/</loc>
-         <lastmod>2024-08-07</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://laconic-labs.dev/walk-throughs/walk-throughs/</loc>
-         <lastmod>2024-08-07</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://laconic-labs.dev/blog/category/work/</loc>
-         <lastmod>2024-08-07</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://laconic-labs.dev/blog/category/what-is-ai/</loc>
-         <lastmod>2024-08-07</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

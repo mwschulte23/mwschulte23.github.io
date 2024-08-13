@@ -4,7 +4,7 @@ site_name: Laconic Labs
 site_url: https://laconic-labs.dev
 site_description: Unlock the power of AI with Laconic Labs
 site_author: Mike Schulte
-repo_url: https://github.com/squidfunk/mkdocs-material
+# repo_url: https://github.com/squidfunk/mkdocs-material
 
 theme: 
   name: material
