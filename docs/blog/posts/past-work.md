@@ -1,8 +1,6 @@
 ---
 date: 2024-06-22
 slug: What I've Done w/ ML & AI
-categories:
-  - Work
 authors:
   - mike
 ---

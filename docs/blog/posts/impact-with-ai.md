@@ -1,7 +1,6 @@
 ---
-date: 2024-06-22
-slug: How to drive impact with AI?
 title: How to drive impact with AI?
+date: 2024-07-08
 authors:
   - mike
 ---
@@ -19,6 +18,7 @@ Avoiding these three mistakes will play a **huge** role in your success (+ havin
 Let's mix metaphors a bit. AI/ML models have an endless appetite for data & will "eat" what they are given. Model performance heavily relies on quality of data they consume.
 
 Checklist:
+
 1. We need to source ingredients (data collection)
 2. We need a kitchen (database)
 2. We need a cook (data prep, analysis, and manipulation)
@@ -29,6 +29,7 @@ Take predicting the proper amount to bid on a Google search ad. Do we collect pa
 ### Poorly Defined
 #### Delivery
 We have two straight-forward options that meaningfully change the approach:
+
 1. Make predictions on a schedule, store in a database (e.g predict nightly)
 2. Make predictions on demand, log predictions for future evaluation
 
