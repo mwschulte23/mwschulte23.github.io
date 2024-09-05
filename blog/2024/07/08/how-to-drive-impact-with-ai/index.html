@@ -12,13 +12,13 @@
         <meta name="author" content="Mike Schulte">
       
       
-        <link rel="canonical" href="https://laconic-labs.dev/blog/2024/06/22/how-to-drive-impact-with-ai/">
+        <link rel="canonical" href="https://laconic-labs.dev/blog/2024/07/08/how-to-drive-impact-with-ai/">
       
       
-        <link rel="prev" href="../What%20I%27ve%20Done%20w/%20ML%20%26%20AI/">
+        <link rel="prev" href="../../../06/22/What%20I%27ve%20Done%20w/%20ML%20%26%20AI/">
       
       
-        <link rel="next" href="../../../08/13/Working%20with%20LLMs/">
+        <link rel="next" href="../../../08/13/How%20to%20Implement%20LLMs%20Well/">
       
       
       <link rel="icon" href="../../../../../img/robot-assistant.png">
@@ -57,6 +57,16 @@
     <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-V73R2SYPPY"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-V73R2SYPPY",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-V73R2SYPPY",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
 
     
     
@@ -382,75 +392,6 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Categories
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_2">
-            <span class="md-nav__icon md-icon"></span>
-            Categories
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-    
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../../category/work/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Work
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -580,7 +521,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5v-5Z"/></svg>
-                        <time datetime="2024-06-22 00:00:00" class="md-ellipsis">June 22, 2024</time>
+                        <time datetime="2024-07-08 00:00:00" class="md-ellipsis">July 8, 2024</time>
                       </div>
                     </li>
                     
@@ -691,17 +632,21 @@
 <p>Avoiding these three mistakes will play a <strong>huge</strong> role in your success (+ having a strong data science team or partner).</p>
 <h3 id="shaky-foundation">Shaky Foundation</h3>
 <p>Let's mix metaphors a bit. AI/ML models have an endless appetite for data &amp; will "eat" what they are given. Model performance heavily relies on quality of data they consume.</p>
-<p>Checklist:
-1. We need to source ingredients (data collection)
-2. We need a kitchen (database)
-2. We need a cook (data prep, analysis, and manipulation)
-3. We need a server (deliver data to model)</p>
+<p>Checklist:</p>
+<ol>
+<li>We need to source ingredients (data collection)</li>
+<li>We need a kitchen (database)</li>
+<li>We need a cook (data prep, analysis, and manipulation)</li>
+<li>We need a server (deliver data to model)</li>
+</ol>
 <p>Take predicting the proper amount to bid on a Google search ad. Do we collect past bids, relevant details, and clicks/conversions? Where is this data stored? Has anyone done exploratory data analysis on the data (bonus if automated data quality checks)?</p>
 <h3 id="poorly-defined">Poorly Defined</h3>
 <h4 id="delivery">Delivery</h4>
-<p>We have two straight-forward options that meaningfully change the approach:
-1. Make predictions on a schedule, store in a database (e.g predict nightly)
-2. Make predictions on demand, log predictions for future evaluation</p>
+<p>We have two straight-forward options that meaningfully change the approach:</p>
+<ol>
+<li>Make predictions on a schedule, store in a database (e.g predict nightly)</li>
+<li>Make predictions on demand, log predictions for future evaluation</li>
+</ol>
 <p>Both approaches work well. The choice is dependent on data availability and objectives.</p>
 <h4 id="objectives">Objectives</h4>
 <p>A seemingly straight-forward step can cause outsized "pain" when not done well.</p>
@@ -732,6 +677,8 @@
   
 
 
+
+  
 
 
   

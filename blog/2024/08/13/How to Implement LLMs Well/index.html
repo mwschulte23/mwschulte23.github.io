@@ -12,10 +12,10 @@
         <meta name="author" content="Mike Schulte">
       
       
-        <link rel="canonical" href="https://laconic-labs.dev/blog/2024/08/13/Working%20with%20LLMs/">
+        <link rel="canonical" href="https://laconic-labs.dev/blog/2024/08/13/How%20to%20Implement%20LLMs%20Well/">
       
       
-        <link rel="prev" href="../../../06/22/how-to-drive-impact-with-ai/">
+        <link rel="prev" href="../../../07/08/how-to-drive-impact-with-ai/">
       
       
       
@@ -55,6 +55,16 @@
     <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-V73R2SYPPY"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-V73R2SYPPY",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-V73R2SYPPY",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
 
     
     
@@ -76,6 +86,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#the-potential" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -375,75 +390,6 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Categories
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_2">
-            <span class="md-nav__icon md-icon"></span>
-            Categories
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-    
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../../category/work/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Work
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -604,6 +550,98 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-potential" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Potential
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Potential">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#workflow-automation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workflow Automation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-text-to-sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      - Text to SQL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pitfalls-concerns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pitfalls &amp; Concerns
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Pitfalls
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-concerns" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Concerns
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pitfalls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
           
         </div>
@@ -616,7 +654,36 @@
 
   <h1>Working with llms</h1>
 
-
+<p>AI, specifically LLMs, are "all the rage." The potential value is meaningful, but unlocking this potential is more than "ask ChatGPT."</p>
+<p>Let's dig into the immediate potential, steps to unlock it, and touch on valid concerns.</p>
+<p><em>This is post is not a predicting the big grand future brought by LLMs, it is focused on actionable things we can do today</em></p>
+<h2 id="the-potential">The Potential</h2>
+<p>Today building LLMs can do valuable tasks in domains like data processing, text generation, workflow automation and more.</p>
+<p>Two areas that are especially interesting to me are</p>
+<ol>
+<li>Workflow automation -&gt; handling of slightly dynamic but repetitive tasks</li>
+<li>Research &amp; reporting -&gt; querying database and processing text data to build reseaerch / reports</li>
+<li>New UI/UX Approaches -&gt; simplified but dynamic apps powered by LLMs</li>
+</ol>
+<h4 id="workflow-automation">Workflow Automation</h4>
+<p>Say your customer support wants to better handle customer feedback, share with appropriate team members and save the feedback for reporting.</p>
+<p>Without LLM automation - customer support would need to take great notes, write an email to selected team members and input feedback into a CRM form.</p>
+<p>With LLM automation - our tool can process the feedback, automatically route it to the team and structure processed feedback into a CRM...now your customer support team just has to validate the work done by the LLM.</p>
+<p>Let's focus on two camps of potential: Synthesis and Disintermediation</p>
+<p>Synthesis:</p>
+<ul>
+<li>Summarize a series of emails into a project plan</li>
+<li>Create research reports</li>
+<li>Play role of "copywriting buddy" for marketing</li>
+</ul>
+<p>Disintermediation:</p>
+<h2 id="-text-to-sql">- Text to SQL</h2>
+<h2 id="pitfalls-concerns">Pitfalls &amp; Concerns</h2>
+<h2 id="the-pitfalls">The Pitfalls</h2>
+<h2 id="the-concerns">The Concerns</h2>
+<h2 id="_1"></h2>
+<p>Intro</p>
+<h4 id="pitfalls">Pitfalls</h4>
 
 
 
@@ -628,6 +695,8 @@
   
 
 
+
+  
 
 
   
